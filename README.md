@@ -16,5 +16,3 @@ Ajustar las IP al equipo receptor. Iniciar el receptor antes del emisor.
 - Broadcast: ejecutar `python3 broadcast_receiver.py` en los receptores y `python3 broadcast_sender.py` en el emisor.
 - Carga: configurar IP y un SENDER_ID distinto por emisor; ejecutar `python3 stress_sender.py`. Capturar `udp.port == 5005` en el receptor.
 - Ráfaga local: configurar VICTIM_IP y ejecutar `python3 udp_flood.py` en los equipos de la práctica. Finaliza a los 15 segundos o con Ctrl+C.
-
-El literal `Sender Node!` del código broadcast es la variante escrita en el checkpoint; la terminal muestra `DJZasco Node!`. Se conservan también la errata `boradcast` y el import duplicado del código de carga. Los contadores de envío no son confirmaciones de recepción. La comprobación de estos archivos fue sintáctica, sin nuevas transmisiones.
